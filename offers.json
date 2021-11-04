@@ -1,0 +1,16 @@
+[
+    {
+        "companyName": "",
+        "companyLogoUrl": "",
+        "price" : "",
+        "offer": {
+            "sms": "",
+            "smsAbroad": "",
+            "calls": "",
+            "callsAbroad": "",
+            "dataVolume": "",
+            "dataVolumeAbroad": "",
+            "extras": ""
+        }
+    }
+]
