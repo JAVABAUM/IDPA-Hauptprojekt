@@ -5,10 +5,51 @@
         "price" : "",
         "offer": {
             "sms": "",
+            "smsEu": "",
             "smsAbroad": "",
             "calls": "",
+            "callsEu": "",
             "callsAbroad": "",
             "dataVolume": "",
+            "dataVolumeEu": "",
+            "dataVolumeAbroad": "",
+            "extras": ""
+        }
+    },
+    {
+        "companyName": "Swisscom",
+        "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+        "price" : "40",
+        "offer": {
+            "sms": "Unlimited",
+            "smsEu": "Unlimited",
+            "smsAbroad": "1000",
+            "calls": "Unlimited",
+            "callsEu": "Unlimited",
+            "callsAbroad": "1.50/Min",
+            "dataVolume": "Unlimited",
+            "dataVolumeEu": "Unlimited",
+            "dataVolumeAbroad": "100MB",
+            "dataDownload": "200Mbit",
+            "dataUpload": "100Mbit",
+            "extras": ""
+        }
+        
+        
+    },
+    {
+        "companyName": "",
+        "companyLogoUrl": "",
+        "price" : "",
+        "offer": {
+            "sms": "",
+            "smsEu": "",
+            "smsAbroad": "",
+            "calls": "",
+            "callsEu": "",
+            "callsAbroad": "",
+            "dataVolume": "",
+            "dataVolumeEu": "",
             "dataVolumeAbroad": "",
             "extras": ""
         }
