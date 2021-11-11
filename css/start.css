@@ -1,0 +1,12 @@
+html{
+font-family: 'Merriweather Sans', sans-serif;
+}
+body {
+    background-image: url('https://timesofindia.indiatimes.com/thumb/msid-87612710,width-1200,height-900,resizemode-4/.jpg');
+  }
+.title{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
