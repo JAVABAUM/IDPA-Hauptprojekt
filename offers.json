@@ -81,5 +81,61 @@
         }
         
         
+    },
+    {
+        "companyName": "Salt",
+        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+        "price" : "19.95",
+        "offer": {
+            "sms": "Unlimited",
+            "smsEu": "0",
+            "smsAbroad": "0",
+            "calls": "Unlimited",
+            "callsAbroad": "0",
+            "dataVolume": "1.5GB",
+            "dataVolumeAbroad": "0",
+            "extras": ""
+        }
+        
+        
+    },
+    {
+        "companyName": "Salt",
+        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+        "price" : "24.95",
+        "age": "< 30",
+        "offer": {
+            "sms": "Unlimited",
+            "smsEu": "0",
+            "smsAbroad": "0",
+            "calls": "Unlimited",
+            "callsAbroad": "0",
+            "dataVolume": "5GB",
+            "dataVolumeAbroad": "0",
+            "extras": ""
+        }
+        
+        
+    },
+    {
+        "companyName": "Salt",
+        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+        "price" : "34.95",
+        "age": "> 30",
+        "offer": {
+            "sms": "Unlimited",
+            "smsEu": "0",
+            "smsAbroad": "0",
+            "calls": "Unlimited",
+            "callsAbroad": "0",
+            "dataVolume": "5GB",
+            "dataVolumeAbroad": "0",
+            "extras": ""
+        }
+        
+        
     }
 ]
