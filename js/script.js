@@ -25,9 +25,22 @@ function getElementByIndex(index) {
 
 function renderElementsByCriteria(criteria) {
   var data = JSON.parse(localStorage.getItem("data"));
-  var items = new Map();
-  $.each(data, function (key, val) {
-    items.set(key, val);
-        
+  var possibleElements = new Map();
+  $.each(data, function (key, val) {});
+}
+
+function elementFitsCriteria(element, criteria) {
+  var fitsCriteria = true;
+  $.each(criteria, function (key, value) {
+    
   });
+  return fitsCriteria;
+}
+
+function getElementChild(element, child){
+    if(child == "companyName" || child == "companyLogo" ||child == "price" || child == "age"){
+        return element[child];
+    } else{
+        return element.offer[child];
+    }
 }
