@@ -296,5 +296,25 @@
         }
         
         
+    },
+    {
+        "companyName": "Wingo",
+        "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+        "price" : "25",
+        "offer": {
+            "sms": "Unlimited",
+            "smsAbroad": "0",
+            "calls": "Unlimited",
+            "callsAbroad": "0",
+            "dataVolume": "2GB",
+            "dataVolumeEu": "2GB",
+            "dataVolumeAbroad": "0",
+            "extras":[ "16.90 -> 60 Min",
+                        "9.90 -> 100 SMS"
+                        ]
+            
+        }
+        
+        
     }
 ]
