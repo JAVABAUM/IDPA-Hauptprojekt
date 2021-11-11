@@ -1,12 +1,23 @@
-html{
-font-family: 'Merriweather Sans', sans-serif;
+html {
+  font-family: "Merriweather Sans", sans-serif;
 }
 body {
-    background-image: url('https://timesofindia.indiatimes.com/thumb/msid-87612710,width-1200,height-900,resizemode-4/.jpg');
-  }
-.title{
-    text-align: center;
+  background-image: url("https://th.bing.com/th/id/R.0d37bc6a73930a8f13e2fadca1fa9f31?rik=ilWcq%2b2ryzYjSQ&pid=ImgRaw&r=0");
 }
-.content{
-    text-align: center;
+.title {
+  text-align: center;
+}
+.content {
+  text-align: center;
+}
+#button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
 }
