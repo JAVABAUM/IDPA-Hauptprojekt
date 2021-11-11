@@ -61,5 +61,25 @@
             "dataUpload": "2Gbit",
             "extras": ""
         }
+    },
+    {
+        "companyName": "Swisscom",
+        "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+        "price" : "40",
+        "offer": {
+            "sms": "Unlimited",
+            "smsEu": "0.27",
+            "smsAbroad": "0.40",
+            "calls": "Unlimited",
+            "callsEu": "0.40/Min",
+            "callsAbroad": "1.50/Min",
+            "dataVolume": "Unlimited",
+            "dataVolumeAbroad": "4.90",
+            "dataDownload": "50Mbit",
+            "dataUpload": "25Mbit",
+            "extras": ""
+        }
+        
+        
     }
 ]
