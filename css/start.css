@@ -2,7 +2,7 @@ html {
   font-family: "Merriweather Sans", sans-serif;
 }
 body {
-  background-image: url("https://th.bing.com/th/id/R.0d37bc6a73930a8f13e2fadca1fa9f31?rik=ilWcq%2b2ryzYjSQ&pid=ImgRaw&r=0");
+  background-color: var(--background-color);
 }
 .title {
   text-align: center;
