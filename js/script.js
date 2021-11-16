@@ -1,5 +1,4 @@
 function initPage() {
-  console.log("initPage");
   getJson();
 }
 
