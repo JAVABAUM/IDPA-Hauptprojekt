@@ -60,7 +60,7 @@ html {
     width: 90vw;
     margin: 5%;
     height: 7.5vh;
-    border: 1.5px solid rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
 }
 #top-text {
     margin-top: 2vh;
@@ -71,10 +71,11 @@ html {
     margin-top: -3%; 
 }
 #company{
-    width: 21vw;
+    width: 13.5vw;
     border-radius: 7.5px;
 }
 #search{
-    width: 21vw;
+    width: 13.5vw;
     border-radius: 7.5px;
 }
+
