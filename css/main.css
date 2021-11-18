@@ -55,3 +55,26 @@ html {
     margin: 10px;
     color: var(--text-color);
 }
+
+.container-top {
+    width: 90vw;
+    margin: 5%;
+    height: 7.5vh;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+#top-text {
+    margin-top: 2vh;
+    margin-left: 3%;
+}
+.container-filter {
+    margin-left: 10%;
+    margin-top: -3%; 
+}
+#company{
+    width: 21vw;
+    border-radius: 7.5px;
+}
+#search{
+    width: 21vw;
+    border-radius: 7.5px;
+}
