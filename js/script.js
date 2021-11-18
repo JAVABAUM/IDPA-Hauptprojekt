@@ -109,3 +109,7 @@ function convertUnlimitedToInfinity(value) {
     return Number(value);
   }
 }
+
+function updateSliders(){
+    
+}
