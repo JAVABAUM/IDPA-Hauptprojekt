@@ -1,22 +1,5 @@
 [
   {
-    "companyName": "",
-    "companyLogoUrl": "",
-    "price": "",
-    "offer": {
-      "sms": "",
-      "smsEu": "",
-      "smsAbroad": "",
-      "calls": "",
-      "callsEu": "",
-      "callsAbroad": "",
-      "dataVolume": "",
-      "dataVolumeEu": "",
-      "dataVolumeAbroad": "",
-      "extras": ""
-    }
-  },
-  {
     "companyName": "Swisscom",
     "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
     "price": "40",
