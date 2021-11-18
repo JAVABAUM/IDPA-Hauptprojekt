@@ -75,3 +75,37 @@ function getSliderData() {
     };
   }
 }
+
+function getMinValue(criteria) {
+  var data = JSON.parse(localStorage.getItem("data"));
+  var min = Number(Infinity);
+
+  $.each(data, function (key, object) {
+    var offer = convertUnlimitedToInfinity(getElementChild(object, criteria));
+    if (offer < min) {
+      min = offer;
+    }
+  });
+  return min;
+}
+
+function getMaxValue(criteria) {
+  var data = JSON.parse(localStorage.getItem("data"));
+  var max = Number(0);
+
+  $.each(data, function (key, object) {
+    var offer = convertUnlimitedToInfinity(getElementChild(object, criteria));
+    if (offer > max) {
+      max = offer;
+    }
+  });
+  return max;
+}
+
+function convertUnlimitedToInfinity(value) {
+  if (value == "Unlimited") {
+    return Number(Infinity);
+  } else {
+    return Number(value);
+  }
+}
