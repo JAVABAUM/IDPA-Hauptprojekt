@@ -65,5 +65,10 @@
     margin-top: -3%; 
 }
 #company{
-    width: 15vw;
+    width: 21vw;
+    border-radius: 7.5px;
+}
+#search{
+    width: 21vw;
+    border-radius: 7.5px;
 }
