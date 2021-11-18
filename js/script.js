@@ -30,12 +30,11 @@ function renderElementsByCriteria(criteria) {
       possibleElements.set(key, val);
     }
   });
+  console.log(possibleElements);
 }
 
 function elementFitsCriteria(element, criteria) {
-  var fitsCriteria = true;
-  $.each(criteria, function (key, value) {});
-  return fitsCriteria;
+  return getElementChild(element, criteria) ? true : false;
 }
 
 function getElementChild(element, child) {
