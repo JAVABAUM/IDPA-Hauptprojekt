@@ -1,320 +1,293 @@
 [
-    {
-        "companyName": "",
-        "companyLogoUrl": "",
-        "price" : "",
-        "offer": {
-            "sms": "",
-            "smsEu": "",
-            "smsAbroad": "",
-            "calls": "",
-            "callsEu": "",
-            "callsAbroad": "",
-            "dataVolume": "",
-            "dataVolumeEu": "",
-            "dataVolumeAbroad": "",
-            "extras": ""
-        }
-    },
-    {
-        "companyName": "Swisscom",
-        "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
-        "price" : "40",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "Unlimited",
-            "smsAbroad": "1000",
-            "calls": "Unlimited",
-            "callsEu": "Unlimited",
-            "callsAbroad": "1.50/Min",
-            "dataVolume": "Unlimited",
-            "dataVolumeEu": "Unlimited",
-            "dataVolumeAbroad": "100MB",
-            "dataDownload": "200Mbit",
-            "dataUpload": "100Mbit",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Swisscom",
-        "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
-        "price" : "160",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "Unlimited",
-            "smsUSA": "Unlimited",
-            "smsCanada": "Unlimited",
-            "smsAbroad": "1000",
-            "calls": "Unlimited",
-            "callsEu": "Unlimited",
-            "callsUsa": "Unlimited",
-            "callsCanada": "Unlimited",
-            "callsAbroad": "30Min",
-            "dataVolume": "Unlimited",
-            "dataVolumeEu": "Unlimited",
-            "dataVolumeUsa": "Unlimited",
-            "dataVolumeCanada": "Unlimited",
-            "dataVolumeAbroad": "10GB",
-            "dataDownload": "2Gbit",
-            "dataUpload": "2Gbit",
-            "extras": ""
-        }
-    },
-    {
-        "companyName": "Swisscom",
-        "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
-        "price" : "40",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "0.27",
-            "smsAbroad": "0.40",
-            "calls": "Unlimited",
-            "callsEu": "0.40/Min",
-            "callsAbroad": "1.50/Min",
-            "dataVolume": "Unlimited",
-            "dataVolumeAbroad": "4.90",
-            "dataDownload": "50Mbit",
-            "dataUpload": "25Mbit",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Salt",
-        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
-        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
-        "price" : "19.95",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "0",
-            "smsAbroad": "0",
-            "calls": "Unlimited",
-            "callsAbroad": "0",
-            "dataVolume": "1.5GB",
-            "dataVolumeAbroad": "0",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Salt",
-        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
-        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
-        "price" : "24.95",
-        "age": "< 30",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "0",
-            "smsAbroad": "0",
-            "calls": "Unlimited",
-            "callsAbroad": "0",
-            "dataVolume": "5GB",
-            "dataVolumeAbroad": "0",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Salt",
-        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
-        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
-        "price" : "34.95",
-        "age": "> 30",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "0",
-            "smsAbroad": "0",
-            "calls": "Unlimited",
-            "callsAbroad": "0",
-            "dataVolume": "5GB",
-            "dataVolumeAbroad": "0",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Salt",
-        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
-        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
-        "price" : "49.95",
-        "age": "< 30",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "Unlimited",
-            "smsCanada": "Unlimited",
-            "smsUSA": "Unlimited",
-            "smsAbroad": "0",
-            "calls": "Unlimited",
-            "callsEu": "60Min",
-            "callsUsa": "60Min",
-            "callsCanada": "60Min",
-            "callsAbroad": "0",
-            "dataVolume": "Unlimited",
-            "dataVolumeEu": "500MB",
-            "dataVolumeCanada": "500MB",
-            "dataVolumeUsa": "500MB",
-            "dataVolumeAbroad": "0",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Salt",
-        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
-        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
-        "price" : "59.95",
-        "age": "> 30",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "Unlimited",
-            "smsCanada": "Unlimited",
-            "smsUSA": "Unlimited",
-            "smsAbroad": "0",
-            "calls": "Unlimited",
-            "callsEu": "60Min",
-            "callsUsa": "60Min",
-            "callsCanada": "60Min",
-            "callsAbroad": "0",
-            "dataVolume": "Unlimited",
-            "dataVolumeEu": "500MB",
-            "dataVolumeCanada": "500MB",
-            "dataVolumeUsa": "500MB",
-            "dataVolumeAbroad": "0",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Salt",
-        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
-        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
-        "price" : "79.95",
-        "age": "< 30",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "Unlimited",
-            "smsCanada": "Unlimited",
-            "smsUSA": "Unlimited",
-            "smsAbroad": "0",
-            "calls": "Unlimited",
-            "callsEu": "Unlimited",
-            "callsUsa": "Unlimited",
-            "callsCanada": "Unlimited",
-            "callsAbroad": "0",
-            "dataVolume": "Unlimited",
-            "dataVolumeEu": "Unlimited",
-            "dataVolumeCanada": "Unlimited",
-            "dataVolumeUsa": "Unlimited",
-            "dataVolumeAbroad": "0",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Salt",
-        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
-        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
-        "price" : "89.95",
-        "age": "> 30",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "Unlimited",
-            "smsCanada": "Unlimited",
-            "smsUSA": "Unlimited",
-            "smsAbroad": "0",
-            "calls": "Unlimited",
-            "callsEu": "Unlimited",
-            "callsUsa": "Unlimited",
-            "callsCanada": "Unlimited",
-            "callsAbroad": "0",
-            "dataVolume": "Unlimited",
-            "dataVolumeEu": "Unlimited",
-            "dataVolumeCanada": "Unlimited",
-            "dataVolumeUsa": "Unlimited",
-            "dataVolumeAbroad": "0",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Salt",
-        "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
-        "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
-        "price" : "119.95",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "Unlimited",
-            "smsCanada": "Unlimited",
-            "smsUSA": "Unlimited",
-            "smsAbroad": "Unlimited",
-            "calls": "Unlimited",
-            "callsEu": "Unlimited",
-            "callsUsa": "Unlimited",
-            "callsCanada": "Unlimited",
-            "callsAbroad": "100Min",
-            "dataVolume": "Unlimited",
-            "dataVolumeEu": "Unlimited",
-            "dataVolumeCanada": "Unlimited",
-            "dataVolumeUsa": "Unlimited",
-            "dataVolumeAbroad": "1GB",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Wingo",
-        "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
-        "price" : "44.95",
-        "offer": {
-            "sms": "Unlimited",
-            "smsEu": "Unlimited",
-            "smsCanada": "Unlimited",
-            "smsUSA": "Unlimited",
-            "smsAbroad": "Unlimited",
-            "calls": "Unlimited",
-            "callsEu": "Unlimited",
-            "callsUsa": "Unlimited",
-            "callsCanada": "Unlimited",
-            "callsAbroad": "Unlimited",
-            "dataVolume": "Unlimited",
-            "dataVolumeEu": "Unlimited",
-            "dataVolumeCanada": "Unlimited",
-            "dataVolumeUsa": "Unlimited",
-            "dataVolumeAbroad": "0",
-            "extras": ""
-        }
-        
-        
-    },
-    {
-        "companyName": "Wingo",
-        "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
-        "price" : "25",
-        "offer": {
-            "sms": "Unlimited",
-            "smsAbroad": "0",
-            "calls": "Unlimited",
-            "callsAbroad": "0",
-            "dataVolume": "2GB",
-            "dataVolumeEu": "2GB",
-            "dataVolumeAbroad": "0",
-            "extras":[ "16.90 -> 60 Min",
-                        "9.90 -> 100 SMS"
-                        ]
-            
-        }
-        
-        
+  {
+    "companyName": "",
+    "companyLogoUrl": "",
+    "price": "",
+    "offer": {
+      "sms": "",
+      "smsEu": "",
+      "smsAbroad": "",
+      "calls": "",
+      "callsEu": "",
+      "callsAbroad": "",
+      "dataVolume": "",
+      "dataVolumeEu": "",
+      "dataVolumeAbroad": "",
+      "extras": ""
     }
+  },
+  {
+    "companyName": "Swisscom",
+    "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+    "price": "40",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsAbroad": "1000",
+      "calls": "Unlimited",
+      "callsEu": "Unlimited",
+      "callsAbroad": "1.50/Min",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "Unlimited",
+      "dataVolumeAbroad": "100MB",
+      "dataDownload": "200Mbit",
+      "dataUpload": "100Mbit",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Swisscom",
+    "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+    "price": "160",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsUSA": "Unlimited",
+      "smsCanada": "Unlimited",
+      "smsAbroad": "1000",
+      "calls": "Unlimited",
+      "callsEu": "Unlimited",
+      "callsUsa": "Unlimited",
+      "callsCanada": "Unlimited",
+      "callsAbroad": "30Min",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "Unlimited",
+      "dataVolumeUsa": "Unlimited",
+      "dataVolumeCanada": "Unlimited",
+      "dataVolumeAbroad": "10GB",
+      "dataDownload": "2Gbit",
+      "dataUpload": "2Gbit",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Swisscom",
+    "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+    "price": "40",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0.27",
+      "smsAbroad": "0.40",
+      "calls": "Unlimited",
+      "callsEu": "0.40/Min",
+      "callsAbroad": "1.50/Min",
+      "dataVolume": "Unlimited",
+      "dataVolumeAbroad": "4.90",
+      "dataDownload": "50Mbit",
+      "dataUpload": "25Mbit",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Salt",
+    "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+    "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+    "price": "19.95",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsAbroad": "0",
+      "dataVolume": "1.5GB",
+      "dataVolumeAbroad": "0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Salt",
+    "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+    "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+    "price": "24.95",
+    "age": "< 30",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsAbroad": "0",
+      "dataVolume": "5GB",
+      "dataVolumeAbroad": "0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Salt",
+    "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+    "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+    "price": "34.95",
+    "age": "> 30",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsAbroad": "0",
+      "dataVolume": "5GB",
+      "dataVolumeAbroad": "0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Salt",
+    "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+    "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+    "price": "49.95",
+    "age": "< 30",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsCanada": "Unlimited",
+      "smsUSA": "Unlimited",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsEu": "60Min",
+      "callsUsa": "60Min",
+      "callsCanada": "60Min",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "500MB",
+      "dataVolumeCanada": "500MB",
+      "dataVolumeUsa": "500MB",
+      "dataVolumeAbroad": "0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Salt",
+    "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+    "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+    "price": "59.95",
+    "age": "> 30",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsCanada": "Unlimited",
+      "smsUSA": "Unlimited",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsEu": "60Min",
+      "callsUsa": "60Min",
+      "callsCanada": "60Min",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "500MB",
+      "dataVolumeCanada": "500MB",
+      "dataVolumeUsa": "500MB",
+      "dataVolumeAbroad": "0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Salt",
+    "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+    "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+    "price": "79.95",
+    "age": "< 30",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsCanada": "Unlimited",
+      "smsUSA": "Unlimited",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsEu": "Unlimited",
+      "callsUsa": "Unlimited",
+      "callsCanada": "Unlimited",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "Unlimited",
+      "dataVolumeCanada": "Unlimited",
+      "dataVolumeUsa": "Unlimited",
+      "dataVolumeAbroad": "0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Salt",
+    "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+    "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+    "price": "89.95",
+    "age": "> 30",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsCanada": "Unlimited",
+      "smsUSA": "Unlimited",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsEu": "Unlimited",
+      "callsUsa": "Unlimited",
+      "callsCanada": "Unlimited",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "Unlimited",
+      "dataVolumeCanada": "Unlimited",
+      "dataVolumeUsa": "Unlimited",
+      "dataVolumeAbroad": "0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Salt",
+    "companyLogoUrl": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
+    "companyLogoUrlBlack": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
+    "price": "119.95",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsCanada": "Unlimited",
+      "smsUSA": "Unlimited",
+      "smsAbroad": "Unlimited",
+      "calls": "Unlimited",
+      "callsEu": "Unlimited",
+      "callsUsa": "Unlimited",
+      "callsCanada": "Unlimited",
+      "callsAbroad": "100Min",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "Unlimited",
+      "dataVolumeCanada": "Unlimited",
+      "dataVolumeUsa": "Unlimited",
+      "dataVolumeAbroad": "1GB",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Wingo",
+    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "price": "44.95",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsCanada": "Unlimited",
+      "smsUSA": "Unlimited",
+      "smsAbroad": "Unlimited",
+      "calls": "Unlimited",
+      "callsEu": "Unlimited",
+      "callsUsa": "Unlimited",
+      "callsCanada": "Unlimited",
+      "callsAbroad": "Unlimited",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "Unlimited",
+      "dataVolumeCanada": "Unlimited",
+      "dataVolumeUsa": "Unlimited",
+      "dataVolumeAbroad": "0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Wingo",
+    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "price": "25",
+    "offer": {
+      "sms": "Unlimited",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsAbroad": "0",
+      "dataVolume": "2GB",
+      "dataVolumeEu": "2GB",
+      "dataVolumeAbroad": "0",
+      "extras": ["16.90 -> 60 Min", "9.90 -> 100 SMS"]
+    }
+  }
 ]
