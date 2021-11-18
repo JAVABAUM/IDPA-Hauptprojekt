@@ -49,3 +49,7 @@ function getElementChild(element, child) {
     return element.offer[child];
   }
 }
+
+function getSliderData(){
+  
+}

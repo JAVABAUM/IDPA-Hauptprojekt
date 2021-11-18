@@ -1,11 +1,13 @@
 /* Theme variables */
 :root {
   --background-color: white;
-  --background-color-secondary: #f5f5f5;
+  --background-color-secondary: #555555;
   --text-color: black;
   --text-color-secondary: #333;
   --border-color: black;
   --border-color-secondary: #333;
+  --white: white;
+  --black: black;
 }
 
 .title{

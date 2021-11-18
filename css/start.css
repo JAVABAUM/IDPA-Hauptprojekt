@@ -11,9 +11,9 @@ body {
   text-align: center;
 }
 #button {
-  background-color: #555555;
+  background-color: var(--background-color-secondary);
   border: none;
-  color: white;
+  color: var(--white);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -24,7 +24,7 @@ body {
   border: 2px solid transparent;
 }
 #button:hover {
-  background-color: #ffffff;
-  color: black;
+  background-color: var(--background-color);
+  color: var(--black);
   border: 2px solid var(--border-color);
 }
