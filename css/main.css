@@ -10,6 +10,12 @@
     --black: black;
 }
 
+html {
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+
+
 .title {
     font-size: 1.5em;
     font-weight: bold;
@@ -54,9 +60,22 @@
     width: 90vw;
     margin: 5%;
     height: 7.5vh;
-    border: 1.5px solid rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
 }
-#top-text{
+#top-text {
     margin-top: 2vh;
     margin-left: 3%;
 }
+.container-filter {
+    margin-left: 10%;
+    margin-top: -3%; 
+}
+#company{
+    width: 13.5vw;
+    border-radius: 7.5px;
+}
+#search{
+    width: 13.5vw;
+    border-radius: 7.5px;
+}
+
