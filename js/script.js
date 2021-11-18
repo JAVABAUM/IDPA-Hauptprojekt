@@ -1,5 +1,6 @@
 function initPage() {
   getJson();
+  updateSliders();
 }
 
 function getJson() {
@@ -112,27 +113,29 @@ function convertUnlimitedToInfinity(value) {
 }
 
 function updateSliders() {
-  function getProviders() {
-    var data = JSON.parse(localStorage.getItem("data"));
-    var providers = new Map();
-    $.each(data, function (key, object) {
-      var provider = getElementChild(object, "companyName");
-      if (!providers.has(provider)) {
-        providers.set(provider, true);
-      }
-    });
-    return providers;
-  }
+}
 
-  function getOffersByProvider(provider) {
-    var data = JSON.parse(localStorage.getItem("data"));
-    var offers = new Map();
-    $.each(data, function (key, object) {
-      var company = getElementChild(object, "companyName");
-      if (company == provider) {
-        offers.set(key, object);
-      }
-    });
-    return offers;
-  }
+
+function getProviders() {
+  var data = JSON.parse(localStorage.getItem("data"));
+  var providers = new Map();
+  $.each(data, function (key, object) {
+    var provider = getElementChild(object, "companyName");
+    if (!providers.has(provider)) {
+      providers.set(provider, true);
+    }
+  });
+  return providers;
+}
+
+function getOffersByProvider(provider) {
+  var data = JSON.parse(localStorage.getItem("data"));
+  var offers = new Map();
+  $.each(data, function (key, object) {
+    var company = getElementChild(object, "companyName");
+    if (company == provider) {
+      offers.set(key, object);
+    }
+  });
+  return offers;
 }
