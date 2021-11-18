@@ -50,6 +50,28 @@ function getElementChild(element, child) {
   }
 }
 
-function getSliderData(){
-  
+function getSliderData() {
+  var detailedFilter = $("#detailed").val() ? true : false;
+  var userInput;
+  if (!detailedFilter) {
+    userInput = {
+      price: $("#price").val(),
+      sms: $("#sms").val(),
+      calls: $("#calls").val(),
+      data: $("#data").val(),
+    };
+  } else {
+    userInput = {
+      price: $("#price").val(),
+      sms: $("#sms").val(),
+      smsEu: $("#smsEu").val(),
+      smsAbroad: $("#smsAbroad").val(),
+      calls: $("#calls").val(),
+      callsEu: $("#callsEu").val(),
+      callsAbroad: $("#callsAbroad").val(),
+      dataVolume: $("#dataVolume").val(),
+      dataVolumeEu: $("#dataVolume").val(),
+      dataVolumeAbroad: $("#data").val(),
+    };
+  }
 }
