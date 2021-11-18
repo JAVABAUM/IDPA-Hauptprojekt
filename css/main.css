@@ -1,28 +1,28 @@
 /* Theme variables */
 :root {
-  --background-color: white;
-  --background-color-secondary: #555555;
-  --text-color: black;
-  --text-color-secondary: #333;
-  --border-color: black;
-  --border-color-secondary: #333;
-  --white: white;
-  --black: black;
+    --background-color: white;
+    --background-color-secondary: #555555;
+    --text-color: black;
+    --text-color-secondary: #333;
+    --border-color: black;
+    --border-color-secondary: #333;
+    --white: white;
+    --black: black;
 }
 
-.title{
+.title {
     font-size: 1.5em;
     font-weight: bold;
     color: var(--text-color);
 }
 
-.sub-title{
+.sub-title {
     font-size: 1.2em;
     font-weight: bold;
     color: var(--text-color);
 }
 
-.card{
+.card {
     background-color: var(--background-color);
     border: 1px solid var(--border-color);
     border-radius: 5px;
@@ -30,22 +30,33 @@
     margin: 10px;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: var(--text-color);
 }
 
-.button{
+.button {
     background-color: var(--background-color);
     border: 1px solid var(--border-color);
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
     color: var(--text-color);
+}
+
+.container-top {
+    width: 90vw;
+    margin: 5%;
+    height: 7.5vh;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+#top-text{
+    margin-top: 2vh;
+    margin-left: 3%;
 }
