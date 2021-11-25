@@ -40,7 +40,7 @@
         <div class="row">
             <div class="col-2">
                 <label for="company" class="form-label">Anbieter wählen:</label>
-                <select name="company" id="company">
+                <select name="company" id="company" onchange="renderElementsByCriteria('provider',this.value)">
                     <option value="sunrise">Alle</option>
                     <option value="swisscom">Swisscom</option>
                     <option value="salt">Salt</option>
@@ -48,7 +48,7 @@
                 </select>
             </div>
             <div class="col-2">
-                <label for="price" class="form-label">Preis / Monat:</label>
+                <label for="price" class="form-label">Preis:</label>
                 <label id="priceLabel"></label>
                 <input type="range" class="form-range" step="1" min="0" max="100" id="price"
                     onchange="updateTextInput(this.value);">
@@ -71,7 +71,7 @@
 
     <div class="container">
         <div class="row" id="ankor">
-           
+
         </div>
     </div>
     <script>

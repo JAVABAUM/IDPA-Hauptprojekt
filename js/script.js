@@ -34,12 +34,19 @@ function renderElementsByCriteria(criteria, value) {
   });
 
   possibleElements.forEach(function (value, key) {
-    getCardBody(value);
+    getCardBody(value, key);
   });
 }
 
 function elementFitsCriteria(element, criteria, value) {
-  return getElementChild(element, criteria) > Number(value);
+  if(criteria != "provider"){
+  return (
+    convertUnlimitedToInfinity(getElementChild(element, criteria)) >
+    Number(value)
+  );
+  } else{
+    return getElementChild(element, "companyName").toLowerCase() == value;
+  }
 }
 
 function getElementChild(element, child) {
@@ -116,7 +123,6 @@ function convertUnlimitedToInfinity(value) {
   }
 }
 
-
 function updateSliders() {
   document.getElementById("price").setAttribute("min", getMinValue("price"));
   document.getElementById("price").setAttribute("max", getMaxValue("price"));
@@ -129,16 +135,18 @@ function updateSliders() {
 }
 
 function updateTextInput(val) {
-  document.getElementById("priceLabel").innerHTML = Math.floor(val);
+  document.getElementById("priceLabel").innerHTML =
+    Math.floor(val) + " CHF pro Monat";
   renderElementsByCriteria("price", val);
 }
 
 function updateTextInputData(val) {
-  document.getElementById("dataLabel").innerHTML = val;
+  document.getElementById("dataLabel").innerHTML = val + " pro Monat";
 }
 
 function updateTextInputCalls(val) {
-  document.getElementById("callsLabel").innerHTML = val;
+  document.getElementById("callsLabel").innerHTML = val + " pro Monat";
+  renderElementsByCriteria("calls", val);
 }
 
 function getProviders() {
@@ -165,8 +173,9 @@ function getOffersByProvider(provider) {
   return offers;
 }
 
-function getCardBody(offer) {
-  var element = `
+function getCardBody(offer, count) {
+  if (count) {
+    var element = `
   <div class="col">
   <div class="card" style="width: 18rem;">
       <div class="card-body">
@@ -217,9 +226,10 @@ function getCardBody(offer) {
 </div>
   `;
 
-  $("#ankor").append(element);
+    $("#ankor").append(element);
+  }
 }
 
-function emptyOffers(){
+function emptyOffers() {
   $("#ankor").empty();
 }
