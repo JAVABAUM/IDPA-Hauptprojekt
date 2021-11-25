@@ -115,7 +115,11 @@ function convertUnlimitedToInfinity(value) {
   }
 }
 
-function updateSliders() {}
+
+function updateSliders() {
+
+}
+
 
 function getProviders() {
   var data = JSON.parse(localStorage.getItem("data"));
