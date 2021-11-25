@@ -23,6 +23,31 @@ function getElementByIndex(index) {
   return element;
 }
 
+function renderElementsByUserinput() {
+  emptyOffers();
+  var userinput = getSliderData();
+  var possibleElements = new Map();
+  var data = JSON.parse(localStorage.getItem("data"));
+  var biggestMet = [0, 0, 0];
+  data.forEach(function (value, key) {
+    var criteriaMet = 0;
+    for (var criteria in userinput) {
+      if (elementFitsCriteria(value, criteria, userinput[criteria])) {
+        criteriaMet++;
+      }
+    }
+    const min = Math.min(...biggestMet);
+    if (criteriaMet > min) {
+      possibleElements.set(key, value);
+      biggestMet[biggestMet.indexOf(min)] = criteriaMet;
+    }
+  });
+  console.log(possibleElements);
+  possibleElements.forEach(function (value, key) {
+    getCardBody(value, key);
+  });
+}
+
 function renderElementsByCriteria(criteria, value) {
   emptyOffers();
   var data = JSON.parse(localStorage.getItem("data"));
@@ -32,19 +57,18 @@ function renderElementsByCriteria(criteria, value) {
       possibleElements.set(key, val);
     }
   });
-
   possibleElements.forEach(function (value, key) {
     getCardBody(value, key);
   });
 }
 
 function elementFitsCriteria(element, criteria, value) {
-  if(criteria != "provider"){
-  return (
-    convertUnlimitedToInfinity(getElementChild(element, criteria)) >
-    Number(value)
-  );
-  } else{
+  if (criteria != "provider") {
+    return (
+      convertUnlimitedToInfinity(getElementChild(element, criteria)) >
+      Number(value)
+    );
+  } else {
     return getElementChild(element, "companyName").toLowerCase() == value;
   }
 }
@@ -68,7 +92,6 @@ function getSliderData() {
   if (!detailedFilter) {
     userInput = {
       price: $("#price").val(),
-      sms: $("#sms").val(),
       calls: $("#calls").val(),
       data: $("#data").val(),
     };
@@ -137,16 +160,14 @@ function updateSliders() {
 function updateTextInput(val) {
   document.getElementById("priceLabel").innerHTML =
     Math.floor(val) + " CHF pro Monat";
-  renderElementsByCriteria("price", val);
+  renderElementsByUserinput();
 }
-
-function updateTextInputData(val) {
-  document.getElementById("dataLabel").innerHTML = val + " pro Monat";
-}
-
 function updateTextInputCalls(val) {
   document.getElementById("callsLabel").innerHTML = val + " pro Monat";
-  renderElementsByCriteria("calls", val);
+  renderElementsByUserinput();
+}
+function updateProvider(val) {
+  renderElementsByUserinput();
 }
 
 function getProviders() {
