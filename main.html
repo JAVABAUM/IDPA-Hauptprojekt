@@ -45,19 +45,25 @@
                     <option value="swisscom">Swisscom</option>
                     <option value="salt">Salt</option>
                     <option value="wingo">Wingo</option>
-                  </select>
+                </select>
             </div>
             <div class="col-2">
                 <label for="price" class="form-label">Preis / Monat:</label>
-                <input type="range" class="form-range"min="0" max="100" id="price">
+                <label id="priceLabel"></label>
+                <input type="range" class="form-range" step="1" min="0" max="100" id="price"
+                    onchange="updateTextInput(this.value);">
             </div>
             <div class="col-2">
                 <label for="data" class="form-label">Daten:</label>
-                <input type="range" class="form-range"min="0" max="100" id="data">
+                <label id="dataLabel"></label>
+                <input type="range" class="form-range" min="0" max="100" id="data"
+                    onchange="updateTextInputData(this.value);">
             </div>
             <div class="col-2">
                 <label for="calls" class="form-label">Anrufe:</label>
-                <input type="range" class="form-range"min="0" max="100" id="calls">
+                <label id="callsLabel"></label>
+                <input type="range" class="form-range" min="0" max="100" id="calls"
+                    onchange="updateTextInputCalls(this.value);">
             </div>
         </div>
         <br>
@@ -69,8 +75,10 @@
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 id="nextToEachOther" class="card-title bigger bold" id="companyName">companyName</h5>
-                        <img id="companyLogo" src="" class="card-img-top" alt=""> 
-                        <img id="companyLogo" src="https://www.paycoach.ch/wp-content/uploads/2016/09/default-placeholder.png" class="card-img-top" alt="placeholder"> 
+                        <img id="companyLogo" src="" class="card-img-top" alt="">
+                        <img id="companyLogo"
+                            src="https://www.paycoach.ch/wp-content/uploads/2016/09/default-placeholder.png"
+                            class="card-img-top" alt="placeholder">
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item" id="sms">sms</li>

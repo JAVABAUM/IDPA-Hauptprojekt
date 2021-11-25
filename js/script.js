@@ -113,8 +113,27 @@ function convertUnlimitedToInfinity(value) {
 }
 
 function updateSliders() {
+  document.getElementById("price").setAttribute("min", getMinValue("price"));
+  document.getElementById("price").setAttribute("max", getMaxValue("price"));
+
+  document.getElementById("data").setAttribute("min", getMinValue("data"));
+  document.getElementById("data").setAttribute("max", getMaxValue("data"));
+
+  document.getElementById("calls").setAttribute("min", getMinValue("calls"));
+  document.getElementById("calls").setAttribute("max", getMaxValue("calls"));
 }
 
+function updateTextInput(val) {
+  document.getElementById("priceLabel").innerHTML = val;
+}
+
+function updateTextInputData(val) {
+  document.getElementById("dataLabel").innerHTML = val;
+}
+
+function updateTextInputCalls(val) {
+  document.getElementById("callsLabel").innerHTML = val;
+}
 
 function getProviders() {
   var data = JSON.parse(localStorage.getItem("data"));
