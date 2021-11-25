@@ -23,11 +23,12 @@ function getElementByIndex(index) {
   return element;
 }
 
-function renderElementsByCriteria(criteria) {
+function renderElementsByCriteria(criteria, value) {
+  emptyOffers();
   var data = JSON.parse(localStorage.getItem("data"));
   var possibleElements = new Map();
   $.each(data, function (key, val) {
-    if (elementFitsCriteria(val, criteria)) {
+    if (elementFitsCriteria(val, criteria, value)) {
       possibleElements.set(key, val);
     }
   });
@@ -37,8 +38,8 @@ function renderElementsByCriteria(criteria) {
   });
 }
 
-function elementFitsCriteria(element, criteria) {
-  return getElementChild(element, criteria) ? true : false;
+function elementFitsCriteria(element, criteria, value) {
+  return getElementChild(element, criteria) > Number(value);
 }
 
 function getElementChild(element, child) {
@@ -128,7 +129,8 @@ function updateSliders() {
 }
 
 function updateTextInput(val) {
-  document.getElementById("priceLabel").innerHTML = val;
+  document.getElementById("priceLabel").innerHTML = Math.floor(val);
+  renderElementsByCriteria("price", val);
 }
 
 function updateTextInputData(val) {
@@ -216,4 +218,8 @@ function getCardBody(offer) {
   `;
 
   $("#ankor").append(element);
+}
+
+function emptyOffers(){
+  $("#ankor").empty();
 }
