@@ -15,6 +15,7 @@
       "dataVolumeAbroad": "100MB",
       "dataDownload": "200Mbit",
       "dataUpload": "100Mbit",
+      "offerURL": "https://www.swisscom.ch/de/privatkunden/abos-tarife/mobile/abo-uebersicht.html?abo=ng_inone_mobile_kapla30&contractDuration=24&subscriptionType=aboWithoutDevice&useCase=ACTIVATION#tab%5Bselected%5D=0",
       "extras": ""
     }
   },
@@ -40,6 +41,7 @@
       "dataVolumeAbroad": "10GB",
       "dataDownload": "2Gbit",
       "dataUpload": "2Gbit",
+      "offerURL": "https://www.swisscom.ch/de/privatkunden/abos-tarife/mobile/abo-uebersicht.html?abo=ng_inone_mobile_kapla30&contractDuration=24&subscriptionType=aboWithoutDevice&useCase=ACTIVATION#tab%5Bselected%5D=0",
       "extras": ""
     }
   },
@@ -58,6 +60,7 @@
       "dataVolumeAbroad": "4.90",
       "dataDownload": "50Mbit",
       "dataUpload": "25Mbit",
+      "offerURL": "https://www.swisscom.ch/de/privatkunden/abos-tarife/mobile/abo-uebersicht.html?abo=ng_inone_mobile_kapla30&contractDuration=24&subscriptionType=aboWithoutDevice&useCase=ACTIVATION#tab%5Bselected%5D=0",
       "extras": ""
     }
   },
@@ -74,6 +77,7 @@
       "callsAbroad": "0",
       "dataVolume": "1.5",
       "dataVolumeAbroad": "0",
+      "offerURL": "https://fiber.salt.ch/de/mobile/plan/start",
       "extras": ""
     }
   },
@@ -91,6 +95,7 @@
       "callsAbroad": "0",
       "dataVolume": "5",
       "dataVolumeAbroad": "0",
+      "offerURL": "https://fiber.salt.ch/de/mobile/plan/basic-young",
       "extras": ""
     }
   },
@@ -108,6 +113,7 @@
       "callsAbroad": "0",
       "dataVolume": "5",
       "dataVolumeAbroad": "0",
+      "offerURL": "https://fiber.salt.ch/de/mobile/plan/basic",
       "extras": ""
     }
   },
@@ -133,6 +139,7 @@
       "dataVolumeCanada": "500MB",
       "dataVolumeUsa": "500MB",
       "dataVolumeAbroad": "0",
+      "offerURL": "https://fiber.salt.ch/de/mobile/plan/swiss-young",
       "extras": ""
     }
   },
@@ -158,6 +165,7 @@
       "dataVolumeCanada": "500MB",
       "dataVolumeUsa": "500MB",
       "dataVolumeAbroad": "0",
+      "offerURL": "https://fiber.salt.ch/de/mobile/plan/swiss",
       "extras": ""
     }
   },
@@ -183,6 +191,7 @@
       "dataVolumeCanada": "Unlimited",
       "dataVolumeUsa": "Unlimited",
       "dataVolumeAbroad": "0",
+      "offerURL": "https://fiber.salt.ch/de/mobile/plan/europe-xxl-young",
       "extras": ""
     }
   },
@@ -208,6 +217,7 @@
       "dataVolumeCanada": "Unlimited",
       "dataVolumeUsa": "Unlimited",
       "dataVolumeAbroad": "0",
+      "offerURL": "https://fiber.salt.ch/de/mobile/plan/europe-xxl",
       "extras": ""
     }
   },
@@ -232,6 +242,7 @@
       "dataVolumeCanada": "Unlimited",
       "dataVolumeUsa": "Unlimited",
       "dataVolumeAbroad": "1GB",
+      "offerURL": "https://fiber.salt.ch/de/mobile/plan/world",
       "extras": ""
     }
   },
@@ -255,6 +266,7 @@
       "dataVolumeCanada": "Unlimited",
       "dataVolumeUsa": "Unlimited",
       "dataVolumeAbroad": "0",
+      "offerURL": "https://www.wingo.ch/de/mobile/wingo-international",
       "extras": ""
     }
   },
@@ -270,6 +282,7 @@
       "dataVolume": "2",
       "dataVolumeEu": "2GB",
       "dataVolumeAbroad": "0",
+      "offerURL": "https://www.wingo.ch/de/mobile/fair-flat",
       "extras": ["16.90 -> 60 Min", "9.90 -> 100 SMS"]
     }
   }
