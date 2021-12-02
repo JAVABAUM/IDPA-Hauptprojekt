@@ -72,7 +72,7 @@
       "smsAbroad": "0",
       "calls": "Unlimited",
       "callsAbroad": "0",
-      "dataVolume": "1.5GB",
+      "dataVolume": "1.5",
       "dataVolumeAbroad": "0",
       "extras": ""
     }
@@ -89,7 +89,7 @@
       "smsAbroad": "0",
       "calls": "Unlimited",
       "callsAbroad": "0",
-      "dataVolume": "5GB",
+      "dataVolume": "5",
       "dataVolumeAbroad": "0",
       "extras": ""
     }
@@ -106,7 +106,7 @@
       "smsAbroad": "0",
       "calls": "Unlimited",
       "callsAbroad": "0",
-      "dataVolume": "5GB",
+      "dataVolume": "5",
       "dataVolumeAbroad": "0",
       "extras": ""
     }
@@ -267,7 +267,7 @@
       "smsAbroad": "0",
       "calls": "Unlimited",
       "callsAbroad": "0",
-      "dataVolume": "2GB",
+      "dataVolume": "2",
       "dataVolumeEu": "2GB",
       "dataVolumeAbroad": "0",
       "extras": ["16.90 -> 60 Min", "9.90 -> 100 SMS"]

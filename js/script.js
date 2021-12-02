@@ -1,6 +1,8 @@
 function initPage() {
+  localStorage.setItem("mode", "light");
   getJson();
   updateSliders();
+  renderElementsByUserinput();
 }
 
 function getJson() {
@@ -26,9 +28,10 @@ function getElementByIndex(index) {
 function renderElementsByUserinput() {
   emptyOffers();
   var userinput = getSliderData();
-  var possibleElements = new Map();
+  var possibleElements = [, ,];
   var data = JSON.parse(localStorage.getItem("data"));
   var biggestMet = [0, 0, 0];
+
   data.forEach(function (value, key) {
     var criteriaMet = 0;
     for (var criteria in userinput) {
@@ -36,15 +39,26 @@ function renderElementsByUserinput() {
         criteriaMet++;
       }
     }
+
     const min = Math.min(...biggestMet);
-    if (criteriaMet > min) {
-      possibleElements.set(key, value);
-      biggestMet[biggestMet.indexOf(min)] = criteriaMet;
+    if (
+      criteriaMet > min &&
+      (String(getElementChild(value, "companyName")).toLowerCase() ==
+        userinput.provider ||
+        userinput.provider == "all")
+    ) {
+      index = biggestMet.indexOf(min);
+      possibleElements[index] = value;
+      biggestMet[index] = criteriaMet;
     }
   });
-  console.log(possibleElements);
+
+  possibleElements.sort(function (a, b) {
+    return getElementChild(a, "price") - getElementChild(b, "price");
+  });
+
   possibleElements.forEach(function (value, key) {
-    getCardBody(value, key);
+    $("#ankor").append(getCardBody(value, key));
   });
 }
 
@@ -63,11 +77,10 @@ function renderElementsByCriteria(criteria, value) {
 }
 
 function elementFitsCriteria(element, criteria, value) {
-  if (criteria != "provider") {
-    return (
-      convertUnlimitedToInfinity(getElementChild(element, criteria)) >
-      Number(value)
-    );
+  if (criteria != "provider" && criteria != "price") {
+    return getElementChild(element, criteria) > Number(value);
+  } else if (criteria == "price") {
+    return getElementChild(element, criteria) < Number(value);
   } else {
     return getElementChild(element, "companyName").toLowerCase() == value;
   }
@@ -91,6 +104,7 @@ function getSliderData() {
   var userInput;
   if (!detailedFilter) {
     userInput = {
+      provider: $("#company").val(),
       price: $("#price").val(),
       calls: $("#calls").val(),
       data: $("#data").val(),
@@ -118,6 +132,8 @@ function getMinValue(criteria) {
 
   $.each(data, function (key, object) {
     var offer = convertUnlimitedToInfinity(getElementChild(object, criteria));
+    if (criteria == "dataVolume") {
+    }
     if (offer < min) {
       min = offer;
     }
@@ -150,8 +166,12 @@ function updateSliders() {
   document.getElementById("price").setAttribute("min", getMinValue("price"));
   document.getElementById("price").setAttribute("max", getMaxValue("price"));
 
-  document.getElementById("data").setAttribute("min", getMinValue("data"));
-  document.getElementById("data").setAttribute("max", getMaxValue("data"));
+  document
+    .getElementById("data")
+    .setAttribute("min", getMinValue("dataVolume"));
+  document
+    .getElementById("data")
+    .setAttribute("max", getMaxValue("dataVolume"));
 
   document.getElementById("calls").setAttribute("min", getMinValue("calls"));
   document.getElementById("calls").setAttribute("max", getMaxValue("calls"));
@@ -162,8 +182,13 @@ function updateTextInput(val) {
     Math.floor(val) + " CHF pro Monat";
   renderElementsByUserinput();
 }
+function updateTextInputData(val) {
+  document.getElementById("dataLabel").innerHTML =
+    Math.floor(val) + " GB pro Monat";
+  renderElementsByUserinput();
+}
 function updateTextInputCalls(val) {
-  document.getElementById("callsLabel").innerHTML = val + " pro Monat";
+  document.getElementById("callsLabel").innerHTML = val + " Minuten pro Monat";
   renderElementsByUserinput();
 }
 function updateProvider(val) {
@@ -194,63 +219,14 @@ function getOffersByProvider(provider) {
   return offers;
 }
 
-function getCardBody(offer, count) {
-  if (count) {
-    var element = `
-  <div class="col">
-  <div class="card" style="width: 18rem;">
-      <div class="card-body">
-          <h5 id="nextToEachOther" class="card-title bigger bold" id="companyName">${getElementChild(
-            offer,
-            "companyName"
-          )}</h5>
-          <img id="companyLogo" src="${
-            offer.companyLogoUrl
-          }" class="card-img-top" alt=""> 
-          </div>
-      <ul class="list-group list-group-flush">
-          <li class="list-group-item" id="sms">Sms: ${getElementChild(
-            offer,
-            "sms"
-          )}</li>
-          <li class="list-group-item" id="smsAbroad">Sms im Ausland: ${getElementChild(
-            offer,
-            "smsAbroad"
-          )}</li>
-          <li class="list-group-item" id="calls">Anrufe: ${getElementChild(
-            offer,
-            "calls"
-          )}</li>
-          <li class="list-group-item" id="callsAbroad">Anrufe im Ausland: ${getElementChild(
-            offer,
-            "callsAbroad"
-          )}</li>
-          <li class="list-group-item" id="data">Datenvolumen: ${getElementChild(
-            offer,
-            "dataVolume"
-          )}</li>
-          <li class="list-group-item" id="dataAbroad">Datenvolumen im Ausland: ${getElementChild(
-            offer,
-            "dataVolumeAbroad"
-          )}</li>
-          <li class="list-group-item bigger" id="price">Preis: ${getElementChild(
-            offer,
-            "price"
-          )} / Monat</li>
-      </ul>
-      <div class="card-body center">
-          <form action="#">
-              <input id="button" type="submit" value="Angebot auswählen" />
-          </form>
-      </div>
-  </div>
-</div>
-  `;
-
-    $("#ankor").append(element);
-  }
-}
-
 function emptyOffers() {
   $("#ankor").empty();
+}
+
+function saveUserDataToLocalStorage(id) {
+  localStorage.setItem(`userData-${id}`, JSON.stringify(getSliderData()));
+}
+
+function getUserDataFromLocalStorage(id) {
+  return JSON.parse(localStorage.getItem(`userData-${id}`));
 }
