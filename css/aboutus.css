@@ -1,0 +1,15 @@
+html {
+    font-family: "Merriweather Sans", sans-serif;
+  }
+  body {
+    background-color: var(--background-color);
+  }
+  .title {
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+  }
+  p {
+      font-size: 1rem;
+  }
