@@ -60,12 +60,14 @@ html {
 .container-top {
     width: 90vw;
     margin: 5%;
-    height: 7.5vh;
+    height: 10vh;
     border: 3px solid rgb(0, 0, 0);
 }
 #top-text {
     margin-top: 2vh;
     margin-left: 3%;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 .container-filter {
     margin-left: 1.5%;
@@ -78,5 +80,10 @@ html {
 #search{
     width: 13.5vw;
     border-radius: 7.5px;
+}
+label{
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--text-color);
 }
 
