@@ -1,40 +1,40 @@
 .card {
-    border-radius: 20px;
-    border: 3px solid black;
+  border-radius: 20px;
+  border: 3px solid var(--black);
 }
 
 #companyName {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .bigger {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #price {
-    text-align: center;
+  text-align: center;
 }
 
 .card-img-top {
-    width: 30px;
-    height: auto;
+  width: 30px;
+  height: auto;
 }
 
 #nextToEachOther {
-    padding-right: 10px;
-    float: left;
+  padding-right: 10px;
+  float: left;
 }
 
-#companyLogo{
-    float: right;
+#companyLogo {
+  float: right;
 }
