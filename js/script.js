@@ -2,7 +2,6 @@ function initPage() {
   localStorage.setItem("mode", "light");
   getJson();
   updateSliders();
-  renderElementsByUserinput();
 }
 
 function getJson() {
@@ -13,6 +12,7 @@ function getJson() {
     });
     localStorage.setItem("data", JSON.stringify(data));
   });
+  renderElementsByUserinput();
 }
 
 function getElementByIndex(index) {
@@ -229,4 +229,12 @@ function saveUserDataToLocalStorage(id) {
 
 function getUserDataFromLocalStorage(id) {
   return JSON.parse(localStorage.getItem(`userData-${id}`));
+}
+
+function getMaxUserDataId() {
+  index = 0;
+  while (localStorage.getItem(`userData-${index}`) != null) {
+    index++;
+  }
+  return index > 0 ? index++ : -1;
 }

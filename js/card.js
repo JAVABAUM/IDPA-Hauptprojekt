@@ -43,14 +43,17 @@ function getCardBody(offer, count) {
             )} / Monat</li>
         </ul>
         <div class="card-body center">
-            <form action="#">
-                <input id="button" type="submit" value="Angebot auswählen" />
-            </form>
+          <button onclick="onOfferLinkClick(${
+            offer.offerURL
+          })" id="button">Angebot auswählen</button>
         </div>
     </div>
   </div>
     `;
-
     return element;
   }
+}
+
+function onOfferLinkClick(url) {
+  window.location.href = url;
 }
