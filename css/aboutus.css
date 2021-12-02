@@ -1,0 +1,18 @@
+html {
+    font-family: "Merriweather Sans", sans-serif;
+  }
+  body {
+    background-color: var(--background-color);
+    background-image: url('../images/bgPink.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .title {
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+  }
+  p {
+      font-size: 1rem;
+  }
