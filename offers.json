@@ -342,5 +342,77 @@
       "offerURL": "https://www.wingo.ch/de/mobile/fair-flat",
       "extras": ["16.90 -> 60 Min", "9.90 -> 100 SMS"]
     }
+  },
+  {
+    "companyName": "Wingo",
+    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "price": "68",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsEu": "100Min",
+      "callsAbroad": "100Min",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "1",
+      "dataVolumeAbroad": "0",
+      "offerURL": "https://www.wingo.ch/de/mobile/wingo-swiss-pro",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Wingo",
+    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "price": "78",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsEu": "Unlimited",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "20",
+      "dataVolumeAbroad": "0",
+      "offerURL": "https://www.wingo.ch/de/mobile/wingo-europe",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Wingo",
+    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "price": "58",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsEu": "0",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "Unlimited",
+      "dataVolumeAbroad": "0",
+      "offerURL": "https://www.wingo.ch/de/mobile/wingo-swiss",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Wingo",
+    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "price": "58",
+    "offer": {
+      "sms": "1CHF",
+      "smsEu": "0",
+      "smsAbroad": "0",
+      "calls": "1CHF",
+      "callsEu": "0",
+      "callsAbroad": "0",
+      "dataVolume": "2",
+      "dataVolumeEu": "2",
+      "dataVolumeAbroad": "0",
+      "offerURL": "https://www.wingo.ch/de/mobile/fair-surf",
+      "extras": ""
+    }
   }
 ]
