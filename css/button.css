@@ -12,7 +12,7 @@
     border: 2px solid transparent;
   }
   #button:hover {
-    background-color: var(--background-color);
+    background-color: transparent;
     color: var(--black);
     border: 2px solid var(--border-color);
   }
