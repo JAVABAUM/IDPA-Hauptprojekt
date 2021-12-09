@@ -1,6 +1,7 @@
 .card {
   border-radius: 20px;
   border: 3px solid var(--black);
+  color: var(--text-color);
 }
 
 #companyName {
@@ -32,9 +33,19 @@
 
 #nextToEachOther {
   padding-right: 10px;
+  color: var(--text-color);
   float: left;
 }
 
 #companyLogo {
   float: right;
+}
+
+.list-group-item{
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.list-group{
+  border-color: var(--text-color);
 }

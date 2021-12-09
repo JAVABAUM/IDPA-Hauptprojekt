@@ -238,3 +238,4 @@ function getMaxUserDataId() {
   }
   return index > 0 ? index++ : -1;
 }
+

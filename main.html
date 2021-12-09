@@ -23,6 +23,7 @@
         integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous">
         </script>
 
+
     <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/background.css">
@@ -40,7 +41,7 @@
     </div>
     <div class="container-filter">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 slider">
                 <label for="company" class="form-label">Anbieter wählen:</label>
                 <select name="company" id="company" onchange="updateProvider(this.value)">
                     <option value="all">Alle</option>
@@ -49,19 +50,19 @@
                     <option value="wingo">Wingo</option>
                 </select>
             </div>
-            <div class="col-2">
+            <div class="col-2 slider">
                 <label for="price" class="form-label">Preis:</label>
                 <label id="priceLabel"></label>
                 <input type="range" class="form-range" step="1" min="0" max="100" id="price"
                     onchange="updateTextInput(this.value);">
             </div>
-            <div class="col-2">
+            <div class="col-2 slider">
                 <label for="data" class="form-label">Daten:</label>
                 <label id="dataLabel"></label>
                 <input type="range" class="form-range" min="0" max="100" id="data"
                     onchange="updateTextInputData(this.value);">
             </div>
-            <div class="col-2">
+            <div class="col-2 slider">
                 <label for="calls" class="form-label">Anrufe:</label>
                 <label id="callsLabel"></label>
                 <input type="range" class="form-range" min="0" max="100" id="calls"

@@ -1,94 +1,101 @@
 /* Theme variables */
 :root {
-    --background-color: white;
-    --background-color-secondary: #555555;
-    --text-color: black;
-    --text-color-secondary: #333;
-    --border-color: black;
-    --border-color-secondary: #333;
-    --white: white;
-    --black: black;
+  --background-color: white;
+  --background-color-secondary: #555555;
+  --text-color: black;
+  --text-color-secondary: #333;
+  --border-color: black;
+  --border-color-secondary: #333;
+  --white: white;
+  --black: black;
 }
 
 html {
-    font-family: "Merriweather Sans", sans-serif;
-    overflow-x: hidden;
+  font-family: "Merriweather Sans", sans-serif;
+  overflow-x: hidden;
+  color: var(--text-color);
 }
 
 .title {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: var(--text-color);
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--text-color);
 }
 
 .sub-title {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: var(--text-color);
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--text-color);
 }
 
 .card {
-    background-color: var(--background-color);
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .link {
-    text-decoration: none;
-    color: var(--text-color);
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .button {
-    background-color: var(--background-color);
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    color: var(--text-color);
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: var(--text-color);
 }
 
 .container-top {
-    width: 90vw;
-    margin: 5%;
-    margin-top: 1%;
-    height: 10vh;
-    border: 3px solid rgb(0, 0, 0);
-    background-color: var(--background-color);
+  width: 90vw;
+  margin: 5%;
+  margin-top: 1%;
+  height: 10vh;
+  border: 3px solid var(--border-color);
+  background-color: var(--background-color);
 }
 
-
 #top-text {
-    margin-top: 2vh;
-    margin-left: 3%;
-    font-size: 1.5em;
-    font-weight: bold;
+  margin-top: 2vh;
+  margin-left: 3%;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--text-color);
 }
 
 .container-filter {
-    margin-left: 1.5%;
-    margin-top: -3%;
+  margin-left: 1.5%;
+  margin-top: -3%;
 }
 
 #company {
-    width: 13.5vw;
-    border-radius: 5px;
+  width: 13.5vw;
+  border-radius: 5px;
 }
 
 #search {
-    width: 13.5vw;
-    border-radius: 7.5px;
+  width: 13.5vw;
+  border-radius: 7.5px;
 }
 
 label {
-    font-size: 1em;
-    font-weight: bold;
-    color: var(--text-color);
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .slider {
+    width: 75%;
+  }
 }
