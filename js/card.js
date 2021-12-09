@@ -43,9 +43,9 @@ function getCardBody(offer, count) {
             )} / Monat</li>
         </ul>
         <div class="card-body center">
-          <button onclick="onOfferLinkClick(${
-            offer.offerURL
-          })" id="button">Angebot auswählen</button>
+          <button key=${
+            offer.offer.offerURL
+          } onclick="onOfferLinkClick($(this).attr('key'))" id="button">Angebot auswählen</button>
         </div>
     </div>
   </div>

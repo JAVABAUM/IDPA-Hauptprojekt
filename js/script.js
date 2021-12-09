@@ -223,7 +223,8 @@ function emptyOffers() {
   $("#ankor").empty();
 }
 
-function saveUserDataToLocalStorage(id) {
+function saveUserDataToLocalStorage() {
+  var id = getMaxUserDataId()+1;
   localStorage.setItem(`userData-${id}`, JSON.stringify(getSliderData()));
 }
 

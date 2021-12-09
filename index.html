@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/button.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/main.css" />
 
-    <title>Tarifvergleich | Startseite</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="title">
-        <div class="row">
-          <div class="col-12">
-            <h1>JAVABAUM</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <h2>Tarifvergleich</h2>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/button.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <script src="js/script.js"></script>
+
+  <title>Tarifvergleich | Startseite</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">
+      <div class="row">
+        <div class="col-12">
+          <h1>JAVABAUM</h1>
         </div>
       </div>
-      <div class="content">
-        <form action="main.html">
-          <input id="button" type="submit" value="zu den Angeboten" />
-        </form>
+      <div class="row">
+        <div class="col-12">
+          <h2>Tarifvergleich</h2>
+        </div>
       </div>
     </div>
-  </body>
+    <div class="content">
+      <form action="main.html">
+        <input id="button" type="submit" value="zu den Angeboten" />
+      </form>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function () {
+      getJson();
+    })
+  </script>
+</body>
+
 </html>
