@@ -71,6 +71,13 @@
                     onchange="updateTextInputCalls(this.value);">
             </div>
         </div>
+        <div class="row">
+            <div class="col-2">
+                <button id="button-save" class="saveButton">Profil speichern</button>
+                <button id="button-load" class="saveButton">Profil laden</button>
+            </div>
+            <div class="col-8"></div>
+        </div>
         <br>
     </div>
 
@@ -83,6 +90,12 @@
         $(document).ready(function () {
             initPage();
         })
+        $("#button-save").click(function () {
+            saveUserDataToLocalStorage()
+        });
+        $("#button-load").click(function () {
+            getUserDataFromLocalStorage()
+        });
     </script>
 </body>
 

@@ -224,19 +224,13 @@ function emptyOffers() {
 }
 
 function saveUserDataToLocalStorage() {
-  var id = getMaxUserDataId()+1;
-  localStorage.setItem(`userData-${id}`, JSON.stringify(getSliderData()));
+  localStorage.setItem(`userData`, JSON.stringify(getSliderData()));
 }
 
-function getUserDataFromLocalStorage(id) {
-  return JSON.parse(localStorage.getItem(`userData-${id}`));
+function getUserDataFromLocalStorage() {
+  var data =  JSON.parse(localStorage.getItem(`userData`));
+  $("#data")[0].value = data.data
+  $("#price")[0].value = data.price
+  $("#calls")[0].value = data.calls
+  $("#company")[0].value = data.provider
 }
-
-function getMaxUserDataId() {
-  index = 0;
-  while (localStorage.getItem(`userData-${index}`) != null) {
-    index++;
-  }
-  return index > 0 ? index++ : -1;
-}
-

@@ -16,3 +16,22 @@
     color: var(--black);
     border: 2px solid var(--border-color);
   }
+
+.saveButton{
+  background-color: var(--background-color-secondary);
+  border: none;
+  color: var(--white);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all 0.3s ease 0s;
+  border: 2px solid transparent;
+}
+
+.saveButton:hover {
+  background-color: transparent;
+  color: var(--black);
+  border: 2px solid var(--border-color);
+}
