@@ -414,5 +414,77 @@
       "offerURL": "https://www.wingo.ch/de/mobile/fair-surf",
       "extras": ""
     }
+  },
+  {
+    "companyName": "Sunrise",
+    "companyLogoUrl": "https://www.sunrise.ch/de/_jcr_content/basic/logoRichSnippet.1637750065567.transform/original/sunrise-logo.png",
+    "price": "100",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsAbroad": "Unlimited",
+      "calls": "Unlimited ",
+      "callsEu": "Unlimited",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "Unlimited",
+      "dataVolumeAbroad": "Unlimited",
+      "offerURL": "https://www.sunrise.ch/de/privatkunden/mobil-abos/we-mobile/we-mobile-xl.html",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Sunrise",
+    "companyLogoUrl": "https://www.sunrise.ch/de/_jcr_content/basic/logoRichSnippet.1637750065567.transform/original/sunrise-logo.png",
+    "price": "65",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0.25",
+      "smsAbroad": "0.60",
+      "calls": "Unlimited",
+      "callsEu": "0",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "0",
+      "dataVolumeAbroad": "0",
+      "offerURL": "https://www.sunrise.ch/de/privatkunden/mobil-abos/we-mobile/we-mobile-m.html",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Sunrise",
+    "companyLogoUrl": "https://www.sunrise.ch/de/_jcr_content/basic/logoRichSnippet.1637750065567.transform/original/sunrise-logo.png",
+    "price": "80",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0.25",
+      "smsAbroad": "0.60",
+      "calls": "Unlimited",
+      "callsEu": "0",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "Unlimited",
+      "dataVolumeAbroad": "Unlimited",
+      "offerURL": "https://www.sunrise.ch/de/privatkunden/mobil-abos/we-mobile/we-mobile-l.html",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Sunrise",
+    "companyLogoUrl": "https://www.sunrise.ch/de/_jcr_content/basic/logoRichSnippet.1637750065567.transform/original/sunrise-logo.png",
+    "price": "25",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0.25",
+      "smsAbroad": "0.60",
+      "calls": "Unlimited",
+      "callsEu": "0",
+      "callsAbroad": "0",
+      "dataVolume": "1.5",
+      "dataVolumeEu": "0",
+      "dataVolumeAbroad": "0",
+      "offerURL": "https://www.sunrise.ch/de/privatkunden/mobil-abos/we-mobile/mobile-start.html",
+      "extras": ""
+    }
   }
 ]
