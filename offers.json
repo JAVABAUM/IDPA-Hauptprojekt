@@ -65,6 +65,63 @@
     }
   },
   {
+    "companyName": "Swisscom",
+    "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+    "price": "50",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsAbroad": "1000",
+      "calls": "Unlimited",
+      "callsEu": "Unlimited",
+      "callsAbroad": "0.40/Min",
+      "dataVolume": "3",
+      "dataVolumeAbroad": "0.1",
+      "dataDownload": "50Mbit",
+      "dataUpload": "25Mbit",
+      "offerURL": "https://www.swisscom.ch/de/privatkunden/abos-tarife/mobile/abo-uebersicht.html?abo=ng_inone_mobile_kapla30&contractDuration=24&subscriptionType=aboWithoutDevice&useCase=ACTIVATION#tab%5Bselected%5D=0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Swisscom",
+    "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+    "price": "65",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0.27",
+      "smsAbroad": "0.40",
+      "calls": "Unlimited",
+      "callsEu": "0.40/Min",
+      "callsAbroad": "3/Min",
+      "dataVolume": "Unlimited",
+      "dataVolumeAbroad": "4.90",
+      "dataDownload": "50Mbit",
+      "dataUpload": "25Mbit",
+      "offerURL": "https://www.swisscom.ch/de/privatkunden/abos-tarife/mobile/abo-uebersicht.html?abo=ng_inone_mobile_kapla30&contractDuration=24&subscriptionType=aboWithoutDevice&useCase=ACTIVATION#tab%5Bselected%5D=0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Swisscom",
+    "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+    "price": "49",
+    "offer": {
+      "sms": "0.20",
+      "smsEu": "0.27",
+      "smsAbroad": "0.40",
+      "calls": "",
+      "callsEu": "",
+      "callsAbroad": "",
+      "dataVolume": "Unlimited",
+      "dataVolumeAbroad": "4.90",
+      "dataDownload": "2Gbit",
+      "dataUpload": "2Gbit",
+      "offerURL": "https://www.swisscom.ch/de/privatkunden/abos-tarife/mobile/abo-uebersicht.html?abo=ng_inone_mobile_kapla30&contractDuration=24&subscriptionType=aboWithoutDevice&useCase=ACTIVATION#tab%5Bselected%5D=0",
+      "extras": ""
+    }
+  },
+  {
     "companyName": "Salt",
     "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
     "companyLogoUrlBlack": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
