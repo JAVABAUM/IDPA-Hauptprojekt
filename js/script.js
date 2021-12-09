@@ -233,4 +233,5 @@ function getUserDataFromLocalStorage() {
   $("#price")[0].value = data.price
   $("#calls")[0].value = data.calls
   $("#company")[0].value = data.provider
+  renderElementsByUserinput();
 }
