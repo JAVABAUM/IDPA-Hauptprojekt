@@ -65,6 +65,63 @@
     }
   },
   {
+    "companyName": "Swisscom",
+    "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+    "price": "50",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsAbroad": "1000",
+      "calls": "Unlimited",
+      "callsEu": "Unlimited",
+      "callsAbroad": "0.40/Min",
+      "dataVolume": "3",
+      "dataVolumeAbroad": "0.1",
+      "dataDownload": "50Mbit",
+      "dataUpload": "25Mbit",
+      "offerURL": "https://www.swisscom.ch/de/privatkunden/abos-tarife/mobile/abo-uebersicht.html?abo=ng_inone_mobile_kapla30&contractDuration=24&subscriptionType=aboWithoutDevice&useCase=ACTIVATION#tab%5Bselected%5D=0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Swisscom",
+    "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+    "price": "65",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0.27",
+      "smsAbroad": "0.40",
+      "calls": "Unlimited",
+      "callsEu": "0.40/Min",
+      "callsAbroad": "3/Min",
+      "dataVolume": "Unlimited",
+      "dataVolumeAbroad": "4.90",
+      "dataDownload": "50Mbit",
+      "dataUpload": "25Mbit",
+      "offerURL": "https://www.swisscom.ch/de/privatkunden/abos-tarife/mobile/abo-uebersicht.html?abo=ng_inone_mobile_kapla30&contractDuration=24&subscriptionType=aboWithoutDevice&useCase=ACTIVATION#tab%5Bselected%5D=0",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Swisscom",
+    "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/24/Logo_Swisscom.svg/2000px-Logo_Swisscom.svg.png",
+    "price": "49",
+    "offer": {
+      "sms": "0.20",
+      "smsEu": "0.27",
+      "smsAbroad": "0.40",
+      "calls": "",
+      "callsEu": "",
+      "callsAbroad": "",
+      "dataVolume": "Unlimited",
+      "dataVolumeAbroad": "4.90",
+      "dataDownload": "2Gbit",
+      "dataUpload": "2Gbit",
+      "offerURL": "https://www.swisscom.ch/de/privatkunden/abos-tarife/mobile/abo-uebersicht.html?abo=ng_inone_mobile_kapla30&contractDuration=24&subscriptionType=aboWithoutDevice&useCase=ACTIVATION#tab%5Bselected%5D=0",
+      "extras": ""
+    }
+  },
+  {
     "companyName": "Salt",
     "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Salt_mobile_black_logo.png",
     "companyLogoUrlBlack": "https://fiber.salt.ch/sites/default/files/2020-08/salt_logo_white-big.png",
@@ -284,6 +341,78 @@
       "dataVolumeAbroad": "0",
       "offerURL": "https://www.wingo.ch/de/mobile/fair-flat",
       "extras": ["16.90 -> 60 Min", "9.90 -> 100 SMS"]
+    }
+  },
+  {
+    "companyName": "Wingo",
+    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "price": "68",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsEu": "100Min",
+      "callsAbroad": "100Min",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "1",
+      "dataVolumeAbroad": "0",
+      "offerURL": "https://www.wingo.ch/de/mobile/wingo-swiss-pro",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Wingo",
+    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "price": "78",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "Unlimited",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsEu": "Unlimited",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "20",
+      "dataVolumeAbroad": "0",
+      "offerURL": "https://www.wingo.ch/de/mobile/wingo-europe",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Wingo",
+    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "price": "58",
+    "offer": {
+      "sms": "Unlimited",
+      "smsEu": "0",
+      "smsAbroad": "0",
+      "calls": "Unlimited",
+      "callsEu": "0",
+      "callsAbroad": "0",
+      "dataVolume": "Unlimited",
+      "dataVolumeEu": "Unlimited",
+      "dataVolumeAbroad": "0",
+      "offerURL": "https://www.wingo.ch/de/mobile/wingo-swiss",
+      "extras": ""
+    }
+  },
+  {
+    "companyName": "Wingo",
+    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "price": "58",
+    "offer": {
+      "sms": "1CHF",
+      "smsEu": "0",
+      "smsAbroad": "0",
+      "calls": "1CHF",
+      "callsEu": "0",
+      "callsAbroad": "0",
+      "dataVolume": "2",
+      "dataVolumeEu": "2",
+      "dataVolumeAbroad": "0",
+      "offerURL": "https://www.wingo.ch/de/mobile/fair-surf",
+      "extras": ""
     }
   }
 ]
