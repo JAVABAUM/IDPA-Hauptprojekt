@@ -99,3 +99,31 @@ label {
     width: 75%;
   }
 }
+
+.footer {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer-link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: var(--text-color-secondary);
+}
+
+.mini-logo{
+  width: 3vh;
+}
+
+hr{
+  border-top: 3px solid var(--border-color);
+}
+.button-group{
+  margin-top: 1vh;
+}
+@media screen and (max-width: 600px) {
+  .button-group{
+    width: 75vw;
+}
+}
