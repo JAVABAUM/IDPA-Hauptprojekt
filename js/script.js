@@ -1,3 +1,4 @@
+/* --- Funktionen beim Laden der Seite ---  */
 function initPage() {
   localStorage.setItem("mode", "light");
   getJson();
@@ -15,6 +16,8 @@ function getJson() {
   renderElementsByUserinput();
 }
 
+/* --- Funktionen für das Lesen der Angebote ---  */
+
 function getElementByIndex(index) {
   var data = JSON.parse(localStorage.getItem("data"));
   var items = new Map();
@@ -24,6 +27,20 @@ function getElementByIndex(index) {
   var element = items.get(index);
   return element;
 }
+
+function getElementChild(element, child) {
+  if (
+    child == "companyName" ||
+    child == "companyLogo" ||
+    child == "price" ||
+    child == "age"
+  ) {
+    return element[child];
+  } else {
+    return element.offer[child];
+  }
+}
+/* --- Funktionen für Auswahl-Algorithmus ---  */
 
 function renderElementsByUserinput() {
   emptyOffers();
@@ -86,45 +103,7 @@ function elementFitsCriteria(element, criteria, value) {
   }
 }
 
-function getElementChild(element, child) {
-  if (
-    child == "companyName" ||
-    child == "companyLogo" ||
-    child == "price" ||
-    child == "age"
-  ) {
-    return element[child];
-  } else {
-    return element.offer[child];
-  }
-}
-
-function getSliderData() {
-  var detailedFilter = $("#detailed").val() ? true : false;
-  var userInput;
-  if (!detailedFilter) {
-    userInput = {
-      provider: $("#company").val(),
-      price: $("#price").val(),
-      calls: $("#calls").val(),
-      data: $("#data").val(),
-    };
-  } else {
-    userInput = {
-      price: $("#price").val(),
-      sms: $("#sms").val(),
-      smsEu: $("#smsEu").val(),
-      smsAbroad: $("#smsAbroad").val(),
-      calls: $("#calls").val(),
-      callsEu: $("#callsEu").val(),
-      callsAbroad: $("#callsAbroad").val(),
-      dataVolume: $("#dataVolume").val(),
-      dataVolumeEu: $("#dataVolume").val(),
-      dataVolumeAbroad: $("#data").val(),
-    };
-  }
-  return userInput;
-}
+/* --- Funktionen für Maximal- und Minimalwerte --- */
 
 function getMinValue(criteria) {
   var data = JSON.parse(localStorage.getItem("data"));
@@ -162,6 +141,35 @@ function convertUnlimitedToInfinity(value) {
   }
 }
 
+/* ---Sliderdaten laden und verarbeiten--- */
+
+function getSliderData() {
+  var detailedFilter = $("#detailed").val() ? true : false;
+  var userInput;
+  if (!detailedFilter) {
+    userInput = {
+      provider: $("#company").val(),
+      price: $("#price").val(),
+      calls: $("#calls").val(),
+      data: $("#data").val(),
+    };
+  } else {
+    userInput = {
+      price: $("#price").val(),
+      sms: $("#sms").val(),
+      smsEu: $("#smsEu").val(),
+      smsAbroad: $("#smsAbroad").val(),
+      calls: $("#calls").val(),
+      callsEu: $("#callsEu").val(),
+      callsAbroad: $("#callsAbroad").val(),
+      dataVolume: $("#dataVolume").val(),
+      dataVolumeEu: $("#dataVolume").val(),
+      dataVolumeAbroad: $("#data").val(),
+    };
+  }
+  return userInput;
+}
+
 function updateSliders() {
   document.getElementById("price").setAttribute("min", getMinValue("price"));
   document.getElementById("price").setAttribute("max", getMaxValue("price"));
@@ -195,6 +203,8 @@ function updateProvider(val) {
   renderElementsByUserinput();
 }
 
+/* --- Funktionen, welche mit dem Anbieter zu tun haben --- */
+
 function getProviders() {
   var data = JSON.parse(localStorage.getItem("data"));
   var providers = new Map();
@@ -222,6 +232,8 @@ function getOffersByProvider(provider) {
 function emptyOffers() {
   $("#ankor").empty();
 }
+
+/* --- Eingaben speichern und laden --- */
 
 function saveUserDataToLocalStorage() {
   localStorage.setItem(`userData`, JSON.stringify(getSliderData()));
