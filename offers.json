@@ -305,7 +305,7 @@
   },
   {
     "companyName": "Wingo",
-    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "companyLogoUrl": "https://www.moneyland.ch/resources/media/cms/5f32b42bbcc2f-wingo.svg",
     "price": "44.95",
     "offer": {
       "sms": "Unlimited",
@@ -329,7 +329,7 @@
   },
   {
     "companyName": "Wingo",
-    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "companyLogoUrl": "https://www.moneyland.ch/resources/media/cms/5f32b42bbcc2f-wingo.svg",
     "price": "25",
     "offer": {
       "sms": "Unlimited",
@@ -345,7 +345,7 @@
   },
   {
     "companyName": "Wingo",
-    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "companyLogoUrl": "https://www.moneyland.ch/resources/media/cms/5f32b42bbcc2f-wingo.svg",
     "price": "68",
     "offer": {
       "sms": "Unlimited",
@@ -363,7 +363,7 @@
   },
   {
     "companyName": "Wingo",
-    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "companyLogoUrl": "https://www.moneyland.ch/resources/media/cms/5f32b42bbcc2f-wingo.svg",
     "price": "78",
     "offer": {
       "sms": "Unlimited",
@@ -381,7 +381,7 @@
   },
   {
     "companyName": "Wingo",
-    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "companyLogoUrl": "https://www.moneyland.ch/resources/media/cms/5f32b42bbcc2f-wingo.svg",
     "price": "58",
     "offer": {
       "sms": "Unlimited",
@@ -399,7 +399,7 @@
   },
   {
     "companyName": "Wingo",
-    "companyLogoUrl": "https://online-shop.wingo.ch/assets/wingo/logo-717ab2098689301fe9f53358aef7b8e8b92af787f168d9cbf7daf53d1a306065.svg",
+    "companyLogoUrl": "https://www.moneyland.ch/resources/media/cms/5f32b42bbcc2f-wingo.svg",
     "price": "58",
     "offer": {
       "sms": "1CHF",
@@ -480,7 +480,7 @@
       "calls": "Unlimited",
       "callsEu": "0",
       "callsAbroad": "0",
-      "dataVolume": "1.5",
+      "dataVolume": "1.5",  
       "dataVolumeEu": "0",
       "dataVolumeAbroad": "0",
       "offerURL": "https://www.sunrise.ch/de/privatkunden/mobil-abos/we-mobile/mobile-start.html",
